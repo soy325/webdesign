@@ -8,9 +8,9 @@ $('li.main-menu').mouseleave(function () {
 
 // slide
 setInterval(function () {
-    $('.slide-wrap').stop().animate({ 'top': '-100%' }, function () {
+    $('.slide-wrap').stop().animate({ 'left': '-100%' }, function () {
         $('.slide:first').appendTo('.slide-wrap')
-        $('.slide-wrap').css({ 'top': '0' })
+        $('.slide-wrap').css({ 'left': '0' })
     })
 }, 3000)
 
@@ -24,6 +24,7 @@ $('.tab-menu li').click(function () {
     $('.tab').eq(idx).show()
 })
 
+// pop-up
 // popup
 $('li.modal').click(function () {
     $('.popup').fadeIn()

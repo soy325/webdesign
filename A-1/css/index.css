@@ -76,7 +76,7 @@ li.main-menu>a {
     color: #fff;
 }
 
-li.main-menu>a:hover {
+li.main-menu:hover> a {
     background: #797979;
     color: #fff;
 }
